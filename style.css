@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #A64D79;
+    font-family: "Poppins", serif;
+}
+
+.mother-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    background-color: #6A1E55;
+    padding: 20px 40px;
+    color: #A64D79;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2)
+
+}
+.password input {
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #a55d81c6;
+    /* margin-right: 20px; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3B1C32;
+    /* width: 100%; */
+
+}
+
+.fa-copy {
+    font-size: 24px;
+    color: #6A1E55;
+}
+
+#copy-btn {
+    border: none;
+    padding: 3px;
+    background-color: #A64D79;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 15px;
+    /* margin-top: 200px */
+    
+    
+
+}
+
+#copy-btn:hover {
+    opacity: 0.9;
+}
+
+#copy-btn:active {
+    opacity: 0.7;
+}
+.options input {
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.my-option {
+    margin: 20px 0px;
+}
+#length {
+    background-color: #a55d81c6;
+    border: none;
+
+}
+
+#generatePassword {
+    height: 40px;
+    width: 160px;
+    border: none;
+    background-color: #3B1C32;
+    color: #ffffff91;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.01s;
+}
+
+
+#generatePassword:hover {
+    opacity: 0.9;
+}
+
+#generatePassword:active {
+    opacity: 0.7;
+}
+
+#checkbox {
+    background-color: #3B1C32;
+    padding: 100px;
+}
+
